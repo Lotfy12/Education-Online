@@ -3,7 +3,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Components/home/Home";
 import About from "./Components/about/About";
-import Contact from "./Components/contact/contact";
+import Contact from "./Components/contact/Contact";
 import Pricing from "./Components/pricing/Pricing";
 import Team from "./Components/team/Team";
 import CoursesHome from "./Components/allcourses/CoursesHome";
