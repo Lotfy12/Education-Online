@@ -72,17 +72,17 @@ educational-website@0.0.0 F:\Courses\React-Projects\Educational Website
 #### Snippets
 
 <div>
-  <img  width="1350" height="654"  alt="1" src="https://github.com/user-attachments/assets/1269d71b-b3cf-44dc-a860-62c74e225aea" />
-  <img height="300" width="410" alt="2" src="https://github.com/user-attachments/assets/c10e9258-cb7e-44d9-b0d5-6cbc83d6ff5b" />
-  <img height="300" width="410" alt="5" src="https://github.com/user-attachments/assets/5b491a46-f1d8-4861-b4db-7e812995584a" />
-  <img height="300" width="410" alt="4" src="https://github.com/user-attachments/assets/b5c1bca7-0c2c-4fe9-94c5-b39757a7821a" />
-  <img height="300" width="410"  alt="7" src="https://github.com/user-attachments/assets/60dcdc2e-b200-4d2d-9843-de74468d598a" />
+  <img  width="1350" height="654"  alt="1" src="https://github.com/user-attachments/assets/b1fbf1e9-c218-4736-87ae-87d8c1d4f9ef" />
+  <img height="300" width="410" alt="2" src="https://github.com/user-attachments/assets/ec98aa31-beba-44c4-bddf-27d70f2d5da6" />
+  <img height="300" width="410" alt="5" src="https://github.com/user-attachments/assets/d84b075e-b117-44ac-8fa2-70d11d4fa035" />
+  <img height="300" width="410" alt="4" src="https://github.com/user-attachments/assets/bed77352-3a15-40d1-94d9-ba24caaa5990" />
+  <img height="300" width="410"  alt="7" src="https://github.com/user-attachments/assets/5c1b6875-f6a8-465c-ac05-a7705e18c2cb" />
 
 </div>
 
 #### video
 
-[![video](https://github.com/user-attachments/assets/1269d71b-b3cf-44dc-a860-62c74e225aea)](https://drive.google.com/file/d/1S_-etUBd0ZboSq46HO7IF8IzqV0tFxIy/view)
+[![video](https://github.com/user-attachments/assets/b1fbf1e9-c218-4736-87ae-87d8c1d4f9ef)](https://drive.google.com/file/d/1S_-etUBd0ZboSq46HO7IF8IzqV0tFxIy/view)
 
 
 ---
