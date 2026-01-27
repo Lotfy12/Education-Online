@@ -7,7 +7,7 @@ function Head() {
         <div className="container flexSB">
           <NavLink to="/" className="logo">
             <img
-              src="/src/Components/common/heading/Education.png"
+              src="/src/assets/Education.png"
               alt="Education Logo"
               className="logoo"
             />
