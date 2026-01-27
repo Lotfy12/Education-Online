@@ -30,7 +30,7 @@ function Footer() {
             <div className="link">
               <NavLink to="/">
                 <img
-                  src="/src/assets/Education.png"
+                  src="../../../../public/Education.png"
                   alt="Education Logo"
                   className="logoFooter"
                 />
