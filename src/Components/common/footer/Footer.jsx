@@ -1,7 +1,7 @@
 import { blog } from "../../Dummydata";
 import "./Footer.css";
 import Fade from "react-reveal/Fade";
-
+import logo from "../../../../public/Education.png";
 import "../heading/Header.css";
 import { NavLink } from "react-router-dom";
 function Footer() {
@@ -29,11 +29,7 @@ function Footer() {
           <Fade bottom cascade duration={2000}>
             <div className="link">
               <NavLink to="/">
-                <img
-                  src="../../../../public/Education.png"
-                  alt="Education Logo"
-                  className="logoFooter"
-                />
+                <img src={logo} alt="Education Logo" className="logoFooter" />
               </NavLink>
               <p>
                 A small river named Duden flows by their place and supplies it

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-
+import logo from "../../../../public/Education.png"
 function Head() {
   return (
     <>
@@ -7,7 +7,7 @@ function Head() {
         <div className="container flexSB">
           <NavLink to="/" className="logo">
             <img
-              src="../../../../public/Education.png"
+              src={logo}
               alt="Education Logo"
               className="logoo"
             />
