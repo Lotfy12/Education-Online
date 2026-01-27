@@ -1,0 +1,68 @@
+.testimonial .items {
+  padding: 3rem;
+  transition: 0.5s;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  transition: all 1.5s;
+  border-radius: 1rem;
+}
+.testimonial .box {
+  color: black;
+  background-color: #1eb2a6;
+  border-radius: 1rem;
+}
+.testimonial .img {
+  position: relative;
+}
+.testimonial img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+.testimonial i {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  bottom: -3rem;
+  left: 7rem;
+  background-color: #1eb2a6;
+  color: #fff;
+}
+.testimonial .name {
+  margin: 2.5rem;
+}
+.testimonial .name h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.testimonial .name span {
+  font-size: 1.2rem;
+  /* color: #1eb2a6; */
+}
+.testimonial p {
+  margin-top: 2rem;
+  color: #808080;
+  transition: 0.5s;
+}
+.testimonial .items:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+  cursor: pointer;
+}
+.testimonial .items:hover span,
+.testimonial .items:hover p,
+.testimonial .items:hover h2 {
+  color: #fff;
+}
+.testimonial .items:hover i {
+  background-color: #fff;
+  color: #1eb2a6;
+}
+
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      
+      
+      */

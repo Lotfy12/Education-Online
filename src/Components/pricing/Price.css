@@ -1,0 +1,79 @@
+.pricing .items {
+  background-color: #fff;
+  padding: 3.2rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 5px 25px 2px rgb(0 0 0 / 6%);
+  transition: all 0.35s;
+}
+.pricing .items:hover {
+  box-shadow: 0 12px 35px 3px rgb(0 0 0 / 6%);
+  transform: translateY(-3.5rem);
+}
+.pricing .items:last-child {
+  border: 2px solid #1eb2a6;
+}
+.pricing .items:last-child:hover {
+  box-shadow: 0px 5px 15px rgba(4, 236, 205, 0.35);
+  border: 2px solid rgba(4, 236, 205, 0.35);
+}
+.pricing h4 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 2.4rem 0;
+}
+.pricingHeader {
+  font-size: 4.4rem;
+  color: #1eb2a6;
+  margin-bottom: 2.4rem;
+}
+.pricingParagraph:hover {
+  color: #808080 !important;
+}
+
+/*   Faq   */
+
+.faq .container {
+  max-width: 70%;
+  border-radius: 0.5rem;
+}
+
+.faq .box {
+
+  flex-direction: column;
+  color: black !important;
+  margin-bottom: 2.4rem;
+
+  transition: all 0.3s;
+}
+
+.faq .box:hover {
+  transform: translateX(1.2rem);
+}
+
+.faq button {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.5rem 2rem;
+}
+.faq h2 {
+  font-weight: 500;
+}
+.faq p {
+  padding: 2rem;
+}
+.faq .accordion:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+}
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      
+      
+      */

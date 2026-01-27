@@ -1,0 +1,171 @@
+.coursesCard {
+  padding-top: 8rem;
+}
+
+.rating {
+  display: inline-block;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  float: right;
+  cursor: pointer;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.rating label:before {
+  content: "\2605";
+  font-size: 3rem;
+}
+
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+  color: #1eb2a6;
+  transition: color 0.3s;
+}
+
+.content {
+  display: flex;
+  column-gap: 2.4rem;
+}
+
+.coursesCard .img {
+  width: 8rem;
+  height: 8rem;
+  background-color: #1eb2a6;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.coursesCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.coursesCard .items {
+  background-color: #fff;
+  /* :) */
+  padding: 3rem 1rem;
+  border-radius: 3rem;
+  box-shadow: 0 5px 25px 2px rgb(0 0 0 / 6%);
+  transition: all 0.35s;
+  border-top: 4px solid #1eb2a6;
+}
+.coursesCard .items:hover {
+  box-shadow: 0px 5px 15px rgba(4, 236, 205, 0.35);
+  transform: translateY(-3.5rem);
+  border-top: 4px solid #ffffff;
+  color: #000000;
+}
+
+.coursesCard h1 {
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 4.8rem;
+}
+
+.coursesCard .details .dimg img {
+  border-radius: 2.5rem;
+  height: 7.4rem;
+  margin-right: 20px;
+  width: 7.4rem;
+}
+.coursesCard .details .box {
+  display: flex;
+  align-items: center;
+  color: #808080;
+}
+
+/* OnlineCourse*/
+
+.instructor-name {
+  font-size: 1.8rem;
+}
+.details {
+  text-align: center;
+}
+.totalTime {
+  font-weight: 500;
+  color: #1eb2a6;
+  font-size: 1.6rem;
+}
+.price {
+  margin: 3.2rem 0;
+  border-radius: 2rem;
+  color: #1eb2a6;
+  font-size: 1.6rem;
+  background-color: #f8f8f8;
+  padding: 1.2rem 2.4rem;
+}
+.outline-btn {
+  width: 100%;
+  border: 1px solid #1eb2a6;
+}
+.outline-btn:hover {
+  color: #fff;
+  background-color: #1eb2a6;
+}
+.courseIcon,
+.show {
+  height: 7.2rem;
+  width: 7.2rem;
+  object-fit: contain;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.6rem;
+}
+.online .grid3 .box {
+  background-color: #fff;
+  padding: 1.6rem;
+  border: 1px solid #1eb2a6;
+  border-radius: 1.2rem;
+  transition: all 0.35s;
+  color: black;
+  flex-direction: column;
+}
+.online .grid3 .box:hover {
+  cursor: pointer;
+  background-color: #1eb2a6;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.courseName {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  margin: 1.6rem;
+}
+/* .courseName:hover {
+} */
+.numberOfCourses {
+  text-align: center;
+  color: #1eb2a6;
+  font-size: 1.6rem;
+  background-color: rgb(248, 248, 248);
+  padding: 1.2rem;
+}
+@media screen and (max-width: 48rem) {
+  .grid3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .right {
+    width: 15rem;
+  }
+}
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      
+      
+      */

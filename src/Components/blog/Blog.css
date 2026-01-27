@@ -1,0 +1,54 @@
+.blog .items .img {
+  height: 23rem;
+  width: 34rem;
+  object-fit: contain;
+  text-align: center;
+  padding: 1.6rem 0 0 1.6rem;
+}
+
+.blog .img img {
+  height: 100%;
+  width: 100%;
+}
+
+.blog .items {
+  background-color: #fff;
+  padding: 0.8rem;
+  box-shadow: 0 5px 25px 2px rgb(0 0 0 / 6%);
+  border-radius: 1rem;
+}
+
+.blog .text .flexSB {
+  margin: 1.6rem 0;
+  font-size: 1.6rem;
+  color: #1eb2a6;
+}
+
+.blogHeading {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.6;
+  transition: all 0.35s;
+  padding: 1.6rem 0;
+}
+.blogHeading:hover {
+  color: #1eb2a6;
+}
+
+.blogDescription:hover {
+  color: #808080 !important;
+}
+
+@media screen and (max-width: 48rem) {
+  .blog .items .img {
+    padding-left: 0;
+  }
+}
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      
+      
+      */
