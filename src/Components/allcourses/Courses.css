@@ -153,9 +153,15 @@
   background-color: rgb(248, 248, 248);
   padding: 1.2rem;
 }
+@media screen and (max-width: 76.8rem) {
+  .grid3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 @media screen and (max-width: 48rem) {
   .grid3 {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .right {
     width: 15rem;

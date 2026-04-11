@@ -66,7 +66,7 @@
   align-items: center;
   justify-content: space-around;
   color: #fff;
-  gap: 1.6rem;
+  gap: 1.6re;
 }
 .awrapper .text h1 {
   font-size: 5.2rem;
@@ -80,17 +80,18 @@
 }
 /*------------------*/
 
-@media screen and (max-width: 48rem) {
-  .marigin {
-    height: 40vh;
+@media screen and (max-width: 76.8rem) {
+  .aboutSection div {
+    flex-direction: column-reverse;
   }
+}
+
+@media screen and (max-width: 48rem) {
+
   .back {
     background-position: 50%;
     height: 80vh !important;
     padding-top: 50% !important;
-  }
-  .aboutSection div {
-    flex-direction: column-reverse;
   }
 }
 /*

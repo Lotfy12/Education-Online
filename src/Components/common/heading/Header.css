@@ -90,14 +90,15 @@ li {
 /* 37.5*16= 600
     48*16=768 */
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 76.8rem) {
   .start {
-    clip-path: none;
+    display: none;
   }
   header {
-    margin: 0 auto;
+    margin: 0;
     background-color: #1eb2a6;
     position: relative;
+    padding: 2.5rem;
   }
   header ul.flexSB {
     display: none;
@@ -109,17 +110,23 @@ li {
     display: block;
     background: none;
     color: #fff;
-    font-size: 30px;
+    font-size: 3rem;
     position: absolute;
-    right: 0;
-    top: -20px;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    z-index: 9999;
   }
   .mobile-nav {
     position: absolute;
-    top: 7vh;
+    top: 100%;
     left: 0;
     width: 100%;
     background-color: #1eb2a6;
+    z-index: 999;
   }
 }
 

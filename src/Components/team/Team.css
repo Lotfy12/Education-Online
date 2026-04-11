@@ -51,7 +51,21 @@
 }
 .itemss:hover .overlay {
   opacity: 1;
-} /*
+}
+
+@media screen and (max-width: 76.8rem) {
+  .teamCard .img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .teamCard {
+    margin-top: 15%;
+  }
+}
+/*
       SPACING SYSTEM (px)
       2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
       FONT SIZE SYSTEM (px)

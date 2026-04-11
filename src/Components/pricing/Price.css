@@ -38,6 +38,12 @@
   border-radius: 0.5rem;
 }
 
+@media screen and (max-width: 76.8rem) {
+  .faq .container {
+    max-width: 100%;
+  }
+}
+
 .faq .box {
 
   flex-direction: column;

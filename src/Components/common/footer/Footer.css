@@ -122,9 +122,15 @@ footer .text h4 {
   color: #1eb2a6;
 }
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 76.8rem) {
   footer .container {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  footer .container {
+    grid-template-columns: 1fr;
   }
 }
 /*
