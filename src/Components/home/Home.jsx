@@ -7,6 +7,7 @@ import HBlog from "./HBlog";
 import HPrice from "./HPrice";
 import Footer from "../common/footer/Footer";
 import Header from "../common/heading/Header";
+
 function Home() {
   return (
     <>

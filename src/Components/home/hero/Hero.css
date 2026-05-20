@@ -47,6 +47,7 @@
   .hero .row {
     width: 100%;
   }
+
 }
 
 @media screen and (max-width: 48rem) {
@@ -56,4 +57,8 @@
   .hero {
     padding-top: 50%;
   }
+   .hero .row {
+    margin-left: 18px;
+
+   }
 }
